@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>爱就一个字</title>
   
-  
+  <subtitle>沉淀技术，激励人生</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-31T02:37:01.553Z</updated>
+  <updated>2018-08-31T03:37:01.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>aiquantong</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>b</title>
-    <link href="http://yoursite.com/2018/07/31/b/"/>
-    <id>http://yoursite.com/2018/07/31/b/</id>
-    <published>2018-07-31T02:37:01.000Z</published>
-    <updated>2018-07-31T02:37:01.553Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
+    <title>Start with Hexo</title>
     <link href="http://yoursite.com/2018/07/31/hello-world/"/>
     <id>http://yoursite.com/2018/07/31/hello-world/</id>
     <published>2018-07-31T02:37:01.000Z</published>
@@ -48,28 +34,14 @@
     
     </summary>
     
-      <category term="C1" scheme="http://yoursite.com/categories/C1/"/>
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
     
-      <category term="C2" scheme="http://yoursite.com/categories/C1/C2/"/>
+      <category term="入门" scheme="http://yoursite.com/categories/Hexo/%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="T1" scheme="http://yoursite.com/tags/T1/"/>
+      <category term="web" scheme="http://yoursite.com/tags/web/"/>
     
-      <category term="T2" scheme="http://yoursite.com/tags/T2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>xx</title>
-    <link href="http://yoursite.com/2018/07/31/xx/"/>
-    <id>http://yoursite.com/2018/07/31/xx/</id>
-    <published>2018-07-31T02:24:56.000Z</published>
-    <updated>2018-07-31T02:24:56.859Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
   </entry>
   
