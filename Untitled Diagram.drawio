@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-30T14:05:33.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="YaoDR1VI9k_Z2t1Qqleb" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-30T14:06:54.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="34Jt-PvvOP4r79yRWx9-" version="13.5.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,8 +86,22 @@
         <mxCell id="gozwhajtFq7ZaXICu-Ml-12" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gozwhajtFq7ZaXICu-Ml-10">
           <mxGeometry y="78" width="280" height="12" as="geometry" />
         </mxCell>
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-41" value="NSObject+SHHTTPGeneralHeaders" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="585" width="620" height="110" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-42" value="Name" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gozwhajtFq7ZaXICu-Ml-41">
+          <mxGeometry y="26" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-43" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gozwhajtFq7ZaXICu-Ml-41">
+          <mxGeometry y="52" width="620" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-44" value="-(NSDictionary *)obtainSHHTTPCommonGeneralHeaders:(NSString *)urlString  customer:(NSDictionary *)headers&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="gozwhajtFq7ZaXICu-Ml-41">
+          <mxGeometry y="60" width="620" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="gozwhajtFq7ZaXICu-Ml-35" value="SHHTTPClientProvider" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="670" width="280" height="330" as="geometry">
+          <mxGeometry x="40" y="585" width="280" height="330" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -99,20 +113,6 @@
         </mxCell>
         <mxCell id="gozwhajtFq7ZaXICu-Ml-38" value="    @objc dynamic func netRequest(severUrl: String,&#xa;                                  url: String,&#xa;                                  params: [String: Any]? = nil,&#xa;                                  method: HTTPReqMethodTypeE = .GET,&#xa;                                  testFilePath: String? = nil,&#xa;                                  isNeedSHURLSigned: Bool = true,&#xa;                                  cachePolicy: SHAPICachePolicy = .protocol,&#xa;                                  requestSerializerType: SHRequestSerializerType = .HTTP,&#xa;                                  success: @escaping SHSuccessCallbackBlock,&#xa;                                  failure: @escaping SHFailureCallbackBlock) -&gt; URLSessionDataTask? {" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="gozwhajtFq7ZaXICu-Ml-35">
           <mxGeometry y="60" width="280" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-41" value="NSObject+SHHTTPGeneralHeaders" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="670" width="280" height="150" as="geometry">
-            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-42" value="Name" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gozwhajtFq7ZaXICu-Ml-41">
-          <mxGeometry y="26" width="280" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-43" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gozwhajtFq7ZaXICu-Ml-41">
-          <mxGeometry y="52" width="280" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-44" value="-(NSDictionary *)obtainSHHTTPCommonGeneralHeaders:(NSString *)urlString  customer:(NSDictionary *)headers&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="gozwhajtFq7ZaXICu-Ml-41">
-          <mxGeometry y="60" width="280" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
