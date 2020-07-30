@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-30T14:08:44.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="WX_212Ktk44POZ4jblvs" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-30T14:10:25.053Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="c5fa15Y2PN9dIyMFr6cs" version="13.5.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,6 +113,9 @@
         </mxCell>
         <mxCell id="gozwhajtFq7ZaXICu-Ml-38" value="    @objc dynamic func netRequest(ownVc: UIViewController,&#xa;                                  severUrl: String,&#xa;                                  url: String,&#xa;                                  params: [String: Any]? = nil,&#xa;                                  method: HTTPReqMethodTypeE = .GET,&#xa;                                  testFilePath: String? = nil,&#xa;                                  isNeedSHURLSigned: Bool = true,&#xa;                                  cachePolicy: SHAPICachePolicy = .protocol,&#xa;                                  requestSerializerType: SHRequestSerializerType = .HTTP,&#xa;                                  success: @escaping SHSuccessCallbackBlock,&#xa;                                  failure: @escaping SHFailureCallbackBlock) -&gt; URLSessionDataTask? {" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="gozwhajtFq7ZaXICu-Ml-35">
           <mxGeometry y="60" width="530" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-49" value="启动到tab前，vc href命名" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="840" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
