@@ -1,110 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2020-07-31T02:18:28.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="pwieqvi7-ePTodgLixXv" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-31T03:24:48.998Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="DMR9xh5oMPWkunELwG8x" version="13.5.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-0" value="SHRouteGoTool" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="40" width="280" height="150" as="geometry">
-            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-1" value="Name" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-0" vertex="1">
-          <mxGeometry y="26" width="280" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-0" vertex="1">
-          <mxGeometry y="52" width="280" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-5" value="- (void)matchHref:(NSString *)href&#xa;               Vc:(UIViewController *)viewController&#xa; ReplaceCurrentVC:(BOOL)replace&#xa;           params:(NSDictionary *)params&#xa;     NeedSendDace:(BOOL)sendDace" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-0" vertex="1">
-          <mxGeometry y="60" width="280" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-6" value="StatisticsEvent" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="390" y="40" width="670" height="140" as="geometry">
-            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-7" value="Name" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-6" vertex="1">
-          <mxGeometry y="26" width="670" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-8" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-6" vertex="1">
-          <mxGeometry y="52" width="670" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-9" value="- (void)sendDaceEvent:(NSString *)event" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-6" vertex="1">
-          <mxGeometry y="60" width="670" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-21" value="- (SHSpmHref *)sendSpmType: (SHSPMType)typeEvent Event:(NSString *)event spm:(NSString *)spm" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="gozwhajtFq7ZaXICu-Ml-6" vertex="1">
-          <mxGeometry y="90" width="670" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="gozwhajtFq7ZaXICu-Ml-26" value="StatisticsEvent" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="390" y="230" width="720" height="220" as="geometry">
+          <mxGeometry x="390" y="230" width="720" height="180" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-27" value="Name" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-26" vertex="1">
-          <mxGeometry y="26" width="720" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gozwhajtFq7ZaXICu-Ml-28" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-26" vertex="1">
-          <mxGeometry y="52" width="720" height="8" as="geometry" />
+          <mxGeometry y="26" width="720" height="8" as="geometry" />
         </mxCell>
         <mxCell id="gozwhajtFq7ZaXICu-Ml-30" value="- (SHSpmHref *)sendSpmType: (SHSPMType)typeEvent Event:(NSString *)event spm:(NSString *)spm 埋点调用外迁" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="gozwhajtFq7ZaXICu-Ml-26" vertex="1">
-          <mxGeometry y="60" width="720" height="40" as="geometry" />
+          <mxGeometry y="34" width="720" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-31" value="-(NString*)generatePidWithHref:(NSString *)href udid:(NSString*)udid timestamp:(NSTimeStamp) timeStamp" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="gozwhajtFq7ZaXICu-Ml-26" vertex="1">
-          <mxGeometry y="100" width="720" height="40" as="geometry" />
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-31" value="-(NString*)generatePidWithHref:(NSString *)href udid:(NSString*)udid" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="gozwhajtFq7ZaXICu-Ml-26" vertex="1">
+          <mxGeometry y="74" width="720" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-34" value="- (void)sendDaceEvent:(NSString *)event nextPid:(NSString *)nextPid ownerVcHref:(NSString *)href ownerPid:(NSString *)pid" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-26" vertex="1">
-          <mxGeometry y="140" width="720" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-39" value="- (void)sendDaceEvent:(NSString *)event  nextPid:(NSString *)nextPid  ownerVc:(UIViewController *)ownerVc&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="gozwhajtFq7ZaXICu-Ml-26" vertex="1">
-          <mxGeometry y="180" width="720" height="40" as="geometry" />
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-34" value="- (void)sendDaceEvent:(NSString *)event nextPid:(NSString *)nextPid ownerVcReferDic:(NSDictionary*)ownerVcReferDic" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-26" vertex="1">
+          <mxGeometry y="114" width="720" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gozwhajtFq7ZaXICu-Ml-45" value="SHRouteGoTool" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="230" width="280" height="170" as="geometry">
+          <mxGeometry x="40" y="230" width="300" height="180" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-46" value="Name" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-45" vertex="1">
-          <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gozwhajtFq7ZaXICu-Ml-47" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-45" vertex="1">
-          <mxGeometry y="52" width="280" height="8" as="geometry" />
+          <mxGeometry y="26" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-48" value="- (void)matchHref:(NSString *)href&#xa;      ownerVc:(UIViewController *)ownerVc&#xa;               Vc:(UIViewController *)viewController&#xa; ReplaceCurrentVC:(BOOL)replace&#xa;           params:(NSDictionary *)params&#xa;     NeedSendDace:(BOOL)sendDace" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-45" vertex="1">
-          <mxGeometry y="60" width="280" height="110" as="geometry" />
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-48" value="- (void)matchHref:(NSString *)href&#xa;               Vc:(UIViewController *)viewController&#xa; ReplaceCurrentVC:(BOOL)replace&#xa; ownerVcReferDic:(NSDictionary*)ownerVcReferDic&#xa;           params:(NSDictionary *)params&#xa;     NeedSendDace:(BOOL)sendDace" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-45" vertex="1">
+          <mxGeometry y="34" width="300" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-41" value="NSObject+SHHTTPGeneralHeaders" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="560" width="620" height="110" as="geometry">
-            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="39B1gfTcantBv1lsYMs9-0" value="route反向解析，现有非route生成Vc，提供反查功能&lt;br&gt;1，&lt;span style=&quot;text-align: center&quot;&gt;SchemeConfig.json添加如下配置&lt;br&gt;2，&lt;/span&gt;&lt;span&gt;generateOwnerVcReferDic函数中href为空进行反向查询&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;3,&amp;nbsp; AlienSchemeConfigManager:&lt;/span&gt;&amp;nbsp;reverseHref&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;进行反向解析查询实现&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="810" width="390" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-42" value="Name" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-41" vertex="1">
-          <mxGeometry y="26" width="620" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-43" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-41" vertex="1">
-          <mxGeometry y="52" width="620" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-44" value="-(NSDictionary *)obtainSHHTTPCommonGeneralHeaders:(NSString *)urlString  customer:(NSDictionary *)headers&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="gozwhajtFq7ZaXICu-Ml-41" vertex="1">
-          <mxGeometry y="60" width="620" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-35" value="SHHTTPClientProvider" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="710" y="560" width="530" height="230" as="geometry">
-            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-36" value="Name" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-35" vertex="1">
-          <mxGeometry y="26" width="530" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-37" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-35" vertex="1">
-          <mxGeometry y="52" width="530" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="gozwhajtFq7ZaXICu-Ml-38" value="    @objc dynamic func netRequest(ownerVc: UIViewController,&#xa;                                  severUrl: String,&#xa;                                  url: String,&#xa;                                  params: [String: Any]? = nil,&#xa;                                  method: HTTPReqMethodTypeE = .GET,&#xa;                                  testFilePath: String? = nil,&#xa;                                  isNeedSHURLSigned: Bool = true,&#xa;                                  cachePolicy: SHAPICachePolicy = .protocol,&#xa;                                  requestSerializerType: SHRequestSerializerType = .HTTP,&#xa;                                  success: @escaping SHSuccessCallbackBlock,&#xa;                                  failure: @escaping SHFailureCallbackBlock) -&gt; URLSessionDataTask? {" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="gozwhajtFq7ZaXICu-Ml-35" vertex="1">
-          <mxGeometry y="60" width="530" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="39B1gfTcantBv1lsYMs9-0" value="href补充" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="840" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="39B1gfTcantBv1lsYMs9-1" value="SchemeConfig.json&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;routeKey&quot;: &quot;reserve&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;routes&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;SHBBSHomeVC&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;href&quot;: &quot;shihuo://www.shihuo.cn?route=bbs_home&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="200" y="829" width="680" height="191" as="geometry" />
+        <mxCell id="39B1gfTcantBv1lsYMs9-1" value="&lt;span&gt;&amp;nbsp;{&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;reserveR&lt;span&gt;outeKey&quot;: &quot;reserve&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;routes&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;SHBBSHomeVC&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;href&quot;: &quot;shihuo://www.shihuo.cn?route=bbs_home&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="910" width="340" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gozwhajtFq7ZaXICu-Ml-10" value="UIViewController+Route" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1150" y="230" width="280" height="120" as="geometry">
@@ -120,8 +52,47 @@
         <mxCell id="gozwhajtFq7ZaXICu-Ml-12" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-10" vertex="1">
           <mxGeometry y="78" width="280" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="39B1gfTcantBv1lsYMs9-3" value="- (NSDictionary *)generateReferHeader" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gozwhajtFq7ZaXICu-Ml-10">
+        <mxCell id="39B1gfTcantBv1lsYMs9-3" value="- (NSDictionary *)generateOwnerVcReferDic" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gozwhajtFq7ZaXICu-Ml-10">
           <mxGeometry y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="39B1gfTcantBv1lsYMs9-4" value="路由和埋点函数调整&lt;br&gt;1，href和pid和当前页面对象绑定&lt;br&gt;&lt;div&gt;&lt;span&gt;2，ownerVcReferDic：当前页面href和pid字段&lt;br&gt;&lt;/span&gt;&lt;span&gt;3，nextPid: 路由跳转埋点-添加下个页面pid&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="105" width="250" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="39B1gfTcantBv1lsYMs9-5" value="网络请求函数调整&lt;br&gt;1，针对最新版本网络请求库&lt;br&gt;2，添加header参数 传入ownerVcReferDic" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="440" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-35" value="SHHTTPClientProvider" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="40" y="521" width="530" height="250" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-37" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-35" vertex="1">
+          <mxGeometry y="26" width="530" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-38" value="    @objc dynamic func netRequest(&#xa;                         severUrl: String,&#xa;                                  url: String,&#xa;                                  header: [String: Any]? = nil,&#xa;                                  params: [String: Any]? = nil,&#xa;                                  method: HTTPReqMethodTypeE = .GET,&#xa;                                  testFilePath: String? = nil,&#xa;                                  isNeedSHURLSigned: Bool = true,&#xa;                                  cachePolicy: SHAPICachePolicy = .protocol,&#xa;                                  requestSerializerType: SHRequestSerializerType = .HTTP,&#xa;                                  success: @escaping SHSuccessCallbackBlock,&#xa;                                  failure: @escaping SHFailureCallbackBlock) -&gt; URLSessionDataTask? {" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="gozwhajtFq7ZaXICu-Ml-35" vertex="1">
+          <mxGeometry y="34" width="530" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-41" value="NSObject+SHHTTPGeneralHeaders" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="600" y="521" width="620" height="110" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-43" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gozwhajtFq7ZaXICu-Ml-41" vertex="1">
+          <mxGeometry y="26" width="620" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gozwhajtFq7ZaXICu-Ml-44" value="-(NSDictionary *)obtainSHHTTPCommonGeneralHeaders:(NSString *)urlString  customer:(NSDictionary *)headers&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="gozwhajtFq7ZaXICu-Ml-41" vertex="1">
+          <mxGeometry y="34" width="620" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="39B1gfTcantBv1lsYMs9-6" value="AlienSchemeConfigManager" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="910" width="420" height="84" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39B1gfTcantBv1lsYMs9-8" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="39B1gfTcantBv1lsYMs9-6">
+          <mxGeometry y="26" width="420" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="39B1gfTcantBv1lsYMs9-9" value="-(NSString*)reverseHref:(NSString *)urlString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="39B1gfTcantBv1lsYMs9-6">
+          <mxGeometry y="34" width="420" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
