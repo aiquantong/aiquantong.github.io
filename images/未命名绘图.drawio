@@ -61,7 +61,7 @@
             <mxPoint x="570" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QOV_KkKUN5zWCKP6f8NC-23" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="用户碰一碰支付">
+        <mxCell id="QOV_KkKUN5zWCKP6f8NC-23" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="用户开启支付">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -72,7 +72,7 @@
             <mxPoint x="579" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kegVgGYUSty8s9iYMjN--1" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="发起支付">
+        <mxCell id="kegVgGYUSty8s9iYMjN--1" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="调用支付接口">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
