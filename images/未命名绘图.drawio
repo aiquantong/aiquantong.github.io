@@ -20,9 +20,6 @@
             <mxPoint x="55" y="130" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QOV_KkKUN5zWCKP6f8NC-21" parent="QOV_KkKUN5zWCKP6f8NC-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="100" width="10" x="45" y="370" as="geometry" />
-        </mxCell>
         <mxCell id="QOV_KkKUN5zWCKP6f8NC-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="B端" vertex="1">
           <mxGeometry height="520" width="100" x="522" y="160" as="geometry" />
         </mxCell>
@@ -31,6 +28,9 @@
         </mxCell>
         <mxCell id="QOV_KkKUN5zWCKP6f8NC-27" parent="QOV_KkKUN5zWCKP6f8NC-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="80" width="10" x="45" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="QOV_KkKUN5zWCKP6f8NC-21" parent="QOV_KkKUN5zWCKP6f8NC-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="45" y="400" as="geometry" />
         </mxCell>
         <mxCell id="QOV_KkKUN5zWCKP6f8NC-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Actor" vertex="1">
           <mxGeometry height="60" width="30" x="150" y="230" as="geometry" />
@@ -47,18 +47,18 @@
             <mxPoint x="595" y="362" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QOV_KkKUN5zWCKP6f8NC-19" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="&lt;div&gt;数据格式:&lt;/div&gt;&lt;div&gt;{&quot;amt&quot;, 20.00}&amp;nbsp;&lt;/div&gt;&lt;div&gt;20.00为支付金额&amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="190" x="319" y="360" as="geometry" />
+        <mxCell id="QOV_KkKUN5zWCKP6f8NC-19" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="&lt;div&gt;数据格式:&lt;/div&gt;&lt;div&gt;{&quot;amt&quot;, 20.00,&amp;nbsp;&lt;/div&gt;&lt;div&gt;codes:[{&quot;code&quot;:&quot;01&quot;, &quot;qty&quot;: &#39;1&#39;}]}&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;amt&lt;/span&gt;为支付金额&lt;/div&gt;&lt;div&gt;code 为菜品编码&lt;br&gt;qty为数量&amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="310" y="368" as="geometry" />
         </mxCell>
         <mxCell id="QOV_KkKUN5zWCKP6f8NC-22" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="展示支付结果">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="279" y="563" />
-              <mxPoint x="279" y="613" />
+              <mxPoint x="595" y="580" />
+              <mxPoint x="595" y="630" />
             </Array>
-            <mxPoint x="259" y="563" as="sourcePoint" />
-            <mxPoint x="254" y="613" as="targetPoint" />
+            <mxPoint x="575" y="580" as="sourcePoint" />
+            <mxPoint x="570" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QOV_KkKUN5zWCKP6f8NC-23" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="用户碰一碰支付">
@@ -71,15 +71,6 @@
             <mxPoint x="579" y="370" as="sourcePoint" />
             <mxPoint x="579" y="420" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="QOV_KkKUN5zWCKP6f8NC-30" edge="1" parent="1" source="QOV_KkKUN5zWCKP6f8NC-27" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="QOV_KkKUN5zWCKP6f8NC-21" value="返回支付结果">
-          <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="660" y="527" as="sourcePoint" />
-            <mxPoint x="253.5" y="527" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QOV_KkKUN5zWCKP6f8NC-33" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="&lt;div&gt;数据格式:&lt;/div&gt;&lt;div&gt;{&quot;res&quot;, &quot;status&quot;}&lt;/div&gt;&lt;div&gt;status值：&lt;/div&gt;&lt;div&gt;fail 支付失败&lt;/div&gt;&lt;div&gt;cancel 用户取消&lt;/div&gt;&lt;div&gt;success 支付成功&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="190" x="319" y="540" as="geometry" />
         </mxCell>
         <mxCell id="kegVgGYUSty8s9iYMjN--1" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="发起支付">
           <mxGeometry relative="1" as="geometry">
